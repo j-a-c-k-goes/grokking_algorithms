@@ -1,4 +1,4 @@
-# Binary Search 
+# Binary Search
 
 ## Definition
 
@@ -6,11 +6,18 @@ Binary search is an algorithm dependent upon a sorted input, like a list if elem
 
 ## Why it is Effective
 
-Binary searching effectively eliminates half the guesses needed until finding a target. 
+Binary searching effectively eliminates half the guesses needed until finding a target. It also operates in logarithmic time, which is exponentially faster than linear time. 
 
-Example: Searching a list of one-million integers for the integer 200 requires 18 steps to locate the item. 
+Comparing logarithmic time to linear time: 
 
-Doing this with a simple search could take <= then length of the item set ,which is inefficient.  
+```
+    Searching for 1_000_000_000 items, using Big O Notation
+
+    Linear time: O(n)     ----> 1(1_000_000_000)            = 1_000_000_000 operations
+    Log time:    O(log n) ----> log base 2 of 1_000_000_000 = ~ 30 operations
+
+    Note: Algorithms speed are measured in growth of operations, not pure units of time. 
+```
 
 ## Limitations
 
