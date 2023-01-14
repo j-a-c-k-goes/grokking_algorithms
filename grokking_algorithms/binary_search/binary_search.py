@@ -37,5 +37,11 @@ def create_test_list( n_items:int ):
 		test_list.append( i )
 	return sorted( test_list )
 
+<<<<<<< HEAD
 test_list = create_test_list( 10_000 )
 search_a = binary_search( test_list, 201 )
+=======
+test_list = create_test_list( 128 )
+search_a = binary_search( test_list, 12)
+print( 'search result:', search_a )
+>>>>>>> 019a9a0a1ca52a98bae97e8e4c1d01eaf4ce4836
