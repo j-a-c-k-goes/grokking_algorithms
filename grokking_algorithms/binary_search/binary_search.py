@@ -20,8 +20,8 @@ def binary_search( my_list, item ):
 		guess = my_list[ int(middle) ]
 		if guess == item:
 			''' found item, return middle '''
-			print( 'steps to find item:', number_of_guesses )
-			return round(middle)
+			print( f'steps to find item ( { item } ):', number_of_guesses )
+			return middle
 		if guess > item:
 			''' guess is too high, reassign value '''
 			high = ( ( middle ) - ( 1 ) )
@@ -37,6 +37,5 @@ def create_test_list( n_items:int ):
 		test_list.append( i )
 	return sorted( test_list )
 
-test_list = create_test_list( 1_000_000 )
-search_a = binary_search( test_list, 200 )
-print( 'search result:', search_a )
+test_list = create_test_list( 10_000 )
+search_a = binary_search( test_list, 201 )
