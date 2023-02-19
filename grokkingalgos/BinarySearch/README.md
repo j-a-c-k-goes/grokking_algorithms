@@ -1,12 +1,12 @@
 # Binary Search
 
-## Definition
+## What is Binary Search?
 
 Binary search is an algorithm dependent upon a sorted input, like a list if elements. If the element is contained within the list, a binary search will return the position the element's location. 
 
-## Why it is Effective
+## Why is it Effective?
 
-Binary searching effectively eliminates half the guesses needed until finding a target. It also operates in logarithmic time, which is exponentially faster than linear time. 
+Binary searching eliminates half the guesses needed during the process of locating a target. The search also occurs in logarithmic time, which is exponentially faster than linear time. 
 
 Comparing logarithmic time to linear time: 
 
