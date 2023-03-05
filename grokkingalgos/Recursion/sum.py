@@ -21,7 +21,7 @@ class List:
     @staticmethod
     def createRandValues(nItems=10):
         """
-            @name createRandValues()
+            @method createRandValues()
             @purpose create random integers values up to n items.
             @param nItems: Integer | the size of the set.
             @return newArray
@@ -35,7 +35,7 @@ class List:
     @staticmethod
     def sum(myList):
         """
-            @name sum()
+            @method sum()
             @param myList: List
             @purpose 
             @return
@@ -55,7 +55,7 @@ class List:
     @staticmethod
     def size(myList):
         """
-            @name size()
+            @method size()
             @param myList: List
             @purpose 
             @return
@@ -70,7 +70,7 @@ class List:
     @staticmethod
     def max(myList):
         """
-            @name max()
+            @method max()
             @param myList: List
             @purpose 
             @return

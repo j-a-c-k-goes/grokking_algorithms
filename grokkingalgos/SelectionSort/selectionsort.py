@@ -7,7 +7,7 @@
 import random
 def findSmallest(array):
 	"""
-	    @name findSmallest
+	    @method findSmallest
 	    @purpose find the smallest value in a given array/list
 	    @param array: list | the list to find a value in
 	    @return smallestIndex
@@ -22,7 +22,7 @@ def findSmallest(array):
 
 def selectionSort(array):
 	"""
-	    @name findSmallest()
+	    @method findSmallest()
 	    @purpose sort an array/list
 	    @param array: list | the list to be sorted.
 	    @return newArray
@@ -37,7 +37,7 @@ def selectionSort(array):
 
 def createRandValues(nItems=10):
 	"""
-	    @name createRandValues()
+	    @method createRandValues()
 	    @purpose create random integers values up to n items.
 	    @param nItems: Integer | the size of the set.
 	    @return newArray

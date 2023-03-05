@@ -7,7 +7,7 @@ import random
 import math
 def binarySearch( my_list, item ):
 	"""
-	    @name binary_search()
+	    @method binary_search()
 	    @purpose function performs the binary search on a sorted list
 	    @param my_list: list | this is the sorted list to search from
 	    @param item: integer or str | the item being searched for in this list
