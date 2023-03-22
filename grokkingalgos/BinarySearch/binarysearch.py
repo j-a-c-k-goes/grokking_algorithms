@@ -1,6 +1,7 @@
 #!/usr/bin/python3.11
 """
     @name binarysearch.py
+    @datelastmodified 2023 03 21
     @purpose demo a binary search algorithm for a sorted list. 
 """
 import random
