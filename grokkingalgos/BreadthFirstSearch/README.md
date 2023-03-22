@@ -1,7 +1,9 @@
-`2023 03 22`
-`The shortest distance is variable, contextual.`
-`Most interesting distance???`
-`The shortest path is not guaranteed to be the fastest path.`
+```
+2023 03 22
+The shortest distance is variable, contextual.
+Most interesting distance???
+The shortest path is not guaranteed to be the fastest path.
+```
 # Breadth First Search
 
 ## Introduction to Graphs

@@ -1,23 +1,20 @@
 #!/usr/bin/python3.11
 """
-    @name sum.py
-    @purpose Demonstrate a summing using recursion. 
+    @name Sum.py
+    @datelastmodified 2023 03 22
+    @purpose Demonstrate the recursive summing of an integer. 
 """
 import random
 class List:
     def __init__(self, myList:list):
         self.myList = myList
-    
     def get(self):
         return self.myList
-    
     def set(self, newValue):
         self.myList.append(newValue)
-   
     @staticmethod
     def view(myList):
         print(myList)
-    
     @staticmethod
     def createRandValues(nItems=10):
         """
@@ -31,7 +28,6 @@ class List:
             randValue = random.randint(1,10_000)
             randValues.update( {randValue} )
         return list(randValues)
-
     @staticmethod
     def sum(myList):
         """
@@ -51,7 +47,6 @@ class List:
         else:
             recursiveCase = myList[0] + sum(myList[1:])
             return recursiveCase
-    
     @staticmethod
     def size(myList):
         """
@@ -66,7 +61,6 @@ class List:
         else:
             recursiveCase = (1) + len(myList[1:])
             return recursiveCase
-   
     @staticmethod
     def max(myList):
         """
@@ -90,7 +84,6 @@ class List:
             else:
                 recursiveCase = subMax
             return recursiveCase
-   
 if __name__ == "__main__":
     testList = List.createRandValues(12)
     List.view(testList)
